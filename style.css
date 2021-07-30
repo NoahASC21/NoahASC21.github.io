@@ -1,0 +1,55 @@
+body{
+    background-color: aqua;
+}
+
+div{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: purple;
+    font-size: 32px;
+    padding: 5px;
+}
+
+#big_div{
+    display: flex;
+    justify-content: space-around;
+}
+
+.one{
+    color: purple;
+    font-size: 32px;
+    padding: 5px;
+}
+
+.two{
+    border: 3px solid #2E549B; /* hex value */
+    margin: 30px;
+    padding: 20px;
+    background-color: aqua;
+    color: white;
+    font-size: 15px;
+    text-align: left;
+}
+
+#big_dev2{
+    background-color: aqua;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+img{
+    width: 60px;
+}
+
+.items:hover{
+    background-color: gray;
+    opacity: 0.5;
+}
+
+a{
+    width: 20%;
+    text-align: center;
+    text-decoration: none;
+}
